@@ -37,3 +37,6 @@ This program will be a convenient alternative to Goverlay for setting up Mangohu
 %meson_install
 
 %files
+%{_bindir}/mangojuice
+%{_datadir}/applications/io.github.radiolamp.mangojuice.desktop
+%{_iconsdir}/hicolor/scalable/apps/io.github.radiolamp.mangojuice.svg
