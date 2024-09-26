@@ -9,6 +9,7 @@ Source0:        https://github.com/radiolamp/mangojuice/archive/%{version}/%{nam
 
 BuildRequires:  meson
 BuildRequires:  cmake
+BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(vapigen)
 
 Requires:  mangohud
