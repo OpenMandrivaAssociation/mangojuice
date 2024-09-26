@@ -9,6 +9,9 @@ Source0:        https://github.com/radiolamp/mangojuice/archive/%{version}/%{nam
 
 BuildRequires:  meson
 BuildRequires:  cmake
+BuildRequires:  pkgconfig(libadwaita-1)
+BuildRequires:  pkgconfig(gee-0.8)
+BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(vapigen)
 
@@ -17,7 +20,7 @@ Requires:  vulkan-tools
 Requires:  mesa-demos
 Requires:  libadwaita-common
 Requires:  %{_lib}gio2.0_0
-Requires:  %{_lib}gee2
+Requires:  %{_lib}gee0.8_2
 Requires:  gtk4
 
 %description
