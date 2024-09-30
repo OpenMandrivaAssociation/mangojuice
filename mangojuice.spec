@@ -39,4 +39,4 @@ This program will be a convenient alternative to Goverlay for setting up Mangohu
 %files
 %{_bindir}/mangojuice
 %{_datadir}/applications/io.github.radiolamp.mangojuice.desktop
-%{_iconsdir}/hicolor/scalable/apps/io.github.radiolamp.mangojuice.svg
+%{_iconsdir}/hicolor/scalable/apps/io.github.radiolamp.mangojuice*
