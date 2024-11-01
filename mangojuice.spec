@@ -1,5 +1,5 @@
 Name:           mangojuice
-Version:        0.7.5
+Version:        0.7.7
 Release:        1
 Summary:        Graphical UI to manage Mangohud settings
 Group:          Graphics/Utilities
