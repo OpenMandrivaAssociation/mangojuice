@@ -30,6 +30,7 @@ This program will be a convenient alternative to Goverlay for setting up Mangohu
 %autosetup -p1
 
 %build
+# Switch to GCC because as of Clang 19.1.3-1 and Mangojuice 0.7.7 app crashing at launch.
 export CC=gcc
 export CXX=g++
 %meson
