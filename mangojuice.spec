@@ -1,6 +1,6 @@
 Name:           mangojuice
 Version:        0.7.8
-Release:        2
+Release:        3
 Summary:        Graphical UI to manage Mangohud settings
 Group:          Graphics/Utilities
 License:        GPLv3
@@ -30,9 +30,6 @@ This program will be a convenient alternative to Goverlay for setting up Mangohu
 %autosetup -p1
 
 %build
-# Switch to GCC because as of Clang 19.1.3-1 and Mangojuice 0.7.7 app crashing at launch.
-export CC=gcc
-export CXX=g++
 %meson
 %meson_build
 
