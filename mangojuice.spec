@@ -1,6 +1,6 @@
 Name:           mangojuice
-Version:        0.7.8
-Release:        2
+Version:        0.7.9
+Release:        1
 Summary:        Graphical UI to manage Mangohud settings
 Group:          Graphics/Utilities
 License:        GPLv3
