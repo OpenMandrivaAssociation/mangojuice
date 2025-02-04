@@ -1,5 +1,5 @@
 Name:           mangojuice
-Version:        0.8.0
+Version:        0.8.1
 Release:        1
 Summary:        Graphical UI to manage Mangohud settings
 Group:          Graphics/Utilities
@@ -9,6 +9,7 @@ Source0:        https://github.com/radiolamp/mangojuice/archive/%{version}/%{nam
 
 BuildRequires:  meson
 BuildRequires:  cmake
+BuildRequires:  gettext
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(gio-2.0)
