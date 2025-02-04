@@ -40,7 +40,9 @@ export CXX=g++
 %install
 %meson_install
 
-%files
+%find_lang %{name}
+
+%files -f %{name}.lang
 %{_bindir}/mangojuice
 %{_datadir}/applications/io.github.radiolamp.mangojuice.desktop
 %{_iconsdir}/hicolor/scalable/apps/io.github.radiolamp.mangojuice*
