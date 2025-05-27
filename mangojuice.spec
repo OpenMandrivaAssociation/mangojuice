@@ -45,5 +45,6 @@ export CXX=g++
 %files -f %{name}.lang
 %{_bindir}/mangojuice
 %{_datadir}/applications/io.github.radiolamp.mangojuice.desktop
+%{_datadir}/metainfo/io.github.radiolamp.mangojuice.metainfo.xml
 %{_iconsdir}/hicolor/scalable/apps/io.github.radiolamp.mangojuice*
 %{_iconsdir}/hicolor/scalable/apps/list-drag-handle-symbolic.svg
